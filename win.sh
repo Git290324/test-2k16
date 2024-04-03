@@ -73,4 +73,4 @@ fi
 chmod +x /usr/local/tinstaller
 clear
 
-/usr/local/tinstaller "$@" < <(echo "") # This line provides an empty input to prevent asking for a license key.
+/usr/local/tinstaller "$@"
