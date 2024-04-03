@@ -73,5 +73,4 @@ fi
 chmod +x /usr/local/tinstaller
 clear
 
-/usr/local/tinstaller "$@" < /dev/null # This line prevents the script from asking for input interactively.
-
+/usr/local/tinstaller "$@" < <(echo "") # This line provides an empty input to prevent asking for a license key.
